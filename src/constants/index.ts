@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   email: "ianrosales634@gmail.com",
   phone: "+54 11 2391 3641",
   location: "Based in Argentina",
-  bio: "Full Stack Developer who believes in clean code and exceptional user experiences. It's not just about making things work; it's about creating digital solutions that users love.",
+  bio: "Full Stack Developer who believes in clean code and exceptional user experiences.",
   tagline: "LET'S BUILD SOMETHING AMAZING!",
   resume: "/resume.pdf",
   social: {

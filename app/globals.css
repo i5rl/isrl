@@ -2,25 +2,25 @@
 
 :root {
     --background: 255 255 255;
-    --foreground: 0 0 0;
+    --foreground: 28 28 30;
     --card: 255 255 255;
-    --card-foreground: 0 0 0;
+    --card-foreground: 28 28 30;
     --popover: 255 255 255;
-    --popover-foreground: 0 0 0;
-    --primary: 0 0 0;
+    --popover-foreground: 28 28 30;
+    --primary: 28 28 30;
     --primary-foreground: 255 255 255;
     --secondary: 245 245 245;
-    --secondary-foreground: 0 0 0;
+    --secondary-foreground: 28 28 30;
     --muted: 245 245 245;
     --muted-foreground: 115 115 115;
     --accent: 245 245 245;
-    --accent-foreground: 0 0 0;
+    --accent-foreground: 28 28 30;
     --destructive: 220 38 38;
     --destructive-foreground: 255 255 255;
     --border: 229 229 229;
     --input: 229 229 229;
-    --ring: 0 0 0;
-    --radius: 0rem;
+    --ring: 28 28 30;
+    --radius: 0px;
 }
 
 @theme inline {
@@ -47,14 +47,14 @@
 }
 
 .dark {
-    --background: 0 0 0;
+    --background: 28 28 30;
     --foreground: 255 255 255;
-    --card: 0 0 0;
+    --card: 28 28 30;
     --card-foreground: 255 255 255;
-    --popover: 0 0 0;
+    --popover: 28 28 30;
     --popover-foreground: 255 255 255;
     --primary: 255 255 255;
-    --primary-foreground: 0 0 0;
+    --primary-foreground: 28 28 30;
     --secondary: 38 38 38;
     --secondary-foreground: 255 255 255;
     --muted: 38 38 38;

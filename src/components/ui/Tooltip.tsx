@@ -17,7 +17,7 @@ export function Tooltip({
 }: TooltipProps) {
   const [isVisible, setIsVisible] = useState(false);
   const [shouldShow, setShouldShow] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const handleMouseEnter = () => {
@@ -87,7 +87,7 @@ export function Tooltip({
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="bg-gray-900 text-white text-sm font-medium px-2 py-1 rounded whitespace-nowrap">
+          <div className="bg-gray-900 text-white text-sm font-medium px-2 py-1 whitespace-nowrap">
             {content}
           </div>
           <div className={`absolute w-0 h-0 border-4 ${getArrowClasses()}`} />

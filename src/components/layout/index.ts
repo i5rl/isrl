@@ -1,3 +1,3 @@
 // Re-export layout components
-export { Header } from "./Header";
+export { Header } from "./FloatingHeader";
 export { Footer } from "./Footer";
